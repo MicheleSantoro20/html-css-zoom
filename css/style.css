@@ -5,34 +5,29 @@
 }
 body {
     font-family: sans-serif;
+    background-color: #1a1a1a;
+    overflow: hidden;
 }
  
 header {
     position: fixed;
     z-index: 9;
     height: 70px;
-    background-color: black;
+    background-color: transparent;
     width: 100vw;
 
     border: 5px solid red;
 }
 
 main {
-    background-color: black;
     height: 100%;
     width: 100vw;
-}
-
-.margin {
-    margin: 0px 6%;
-    border: yellow solid 3px;
 }
 
 .header-container {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 10px;
 }
 
 .header-button {
@@ -59,19 +54,23 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding-top: 120px;
-    align-content: flex-start;
+    padding-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
 }
 
 .webcam-container {
     width: calc(100% / 7);
+    min-width: 246px;
     padding: 3px;
     position: relative;
 }
 
 img {
     height: 150px;
-    width: 240px;
+    width: 100%;
 }
 
 .nome-utente{
