@@ -19,12 +19,12 @@ header {
 
 main {
     background-color: black;
-    height: 100vw;
+    height: 100%;
     width: 100vw;
 }
 
 .margin {
-    margin: 0px 3%;
+    margin: 0px 6%;
     border: yellow solid 3px;
 }
 
@@ -58,12 +58,27 @@ main {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
-    justify-content: space-around;
+    padding-top: 120px;
+    align-content: flex-start;
 
 }
 
 .webcam-container {
     width: calc(100% / 7);
-    height: 100px;
+    padding: 3px;
+    position: relative;
+}
+
+img {
+    height: 150px;
+    width: 240px;
+}
+
+.nome-utente{
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    color: white;
+    padding: 3px;
+    background-color: rgba(63, 63, 63, 0.5);
 }
