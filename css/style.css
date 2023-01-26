@@ -24,7 +24,7 @@ main {
 }
 
 .margin {
-    margin: 0px 10% 0px 10%;
+    margin: 0px 3%;
     border: yellow solid 3px;
 }
 
@@ -54,5 +54,16 @@ main {
 }
 
 .main-container {
-    
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    justify-content: space-around;
+
+}
+
+.webcam-container {
+    width: calc(100% / 7);
+    height: 100px;
 }
