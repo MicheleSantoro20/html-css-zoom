@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #1a1a1a;
+    background-color: black;
     overflow-x: hidden;
 }
  
@@ -14,7 +14,7 @@ header {
     position: fixed;
     z-index: 9;
     height: 70px;
-    background-color: #1a1a1a;
+    background-color: black;
     width: 100vw;
 }
 
